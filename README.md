@@ -5,6 +5,7 @@
 - Webpack
 - Hot Module Replacement
 - Babel
+- ESLint with standard JavaScript style config
 
 # Setup
 #### 1. Clone this repo into your workspace directory
@@ -27,3 +28,8 @@ Run:
 
 ```yarn build```
 > This will build your files optimized and minimized. Build game will be available in `build` directory.
+
+## ESLint
+To automatically fix your `.js` files run:
+
+```yarn lint```
